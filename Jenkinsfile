@@ -20,7 +20,7 @@ pipeline {
 
         stage('Fetch Code') {
             steps {
-                git branch: 'paac', url: 'https://github.com/devopshydclub/vprofile-project.git'
+                git branch: 'paac', url: 'https://github.com/Odunade/Simple_Devops_Project.git'
             }
         }
         stage('BUILD'){
